@@ -152,7 +152,7 @@ class ChatWindow extends React.Component {
 
                             <Col span={4}>
                                 <Button type='primary' style={{ width: '100%' }} onClick={this.submitMessage} htmlType='submit'>
-                                    <Icon type='cater-right' />
+                                    <Icon type='caret-right' />
                                 </Button>
                             </Col>
                         </Form>
