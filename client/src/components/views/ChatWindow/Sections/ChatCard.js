@@ -15,7 +15,7 @@ const ChatCard = (props) => {
                     />
                 }
                 content={
-                    props.message.substring(0,8) === "uploads\\" ?
+                    props.message.substring(0,8) === "uploads/" ?
                         props.message.substring(props.message.length - 3, props.message.length) === 'mp4' ?
                             <video 
                                 style={{ maxWidth: '200px'}}
