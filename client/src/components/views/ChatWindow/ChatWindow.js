@@ -19,7 +19,7 @@ class ChatWindow extends React.Component {
     }
     
     componentDidMount() {
-        const server = 'http://localhost:5000'
+        const server = 'https://gentle-mountain-82880.herokuapp.com'
 
         this.props.dispatch(getChats())
 

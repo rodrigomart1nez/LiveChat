@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'http://localhost:5000',
+            target: 'https://gentle-mountain-82880.herokuapp.com',
             changeOrigin: true,
         })
     );
