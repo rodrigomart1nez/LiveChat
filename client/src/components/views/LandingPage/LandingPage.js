@@ -1,15 +1,13 @@
 import React from 'react'
-import { FaCode } from "react-icons/fa";
+import { Button } from 'antd';
 
 function LandingPage() {
     return (
-        <>
-            <div className="app">
-                <FaCode style={{ fontSize: '4rem' }} /><br />
-                <span style={{ fontSize: '2rem' }}>Let's Start Coding!</span>
-            </div>
-            <div style={{ float: 'right' }}>Thanks For Using This Boiler Plate by John Ahn</div>
-        </>
+        <div className="app">
+            <Button type='primary' href='/chat' icon='message' size='large'>
+                Start Chatting
+            </Button>
+        </div>
     )
 }
 

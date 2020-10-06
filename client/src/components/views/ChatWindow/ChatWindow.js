@@ -142,7 +142,7 @@ class ChatWindow extends React.Component {
                                             <div {...getRootProps()}>
                                                 <input {...getInputProps()} />
                                                 <Button>
-                                                    <Icon type='upload' />
+                                                    <Icon type='picture' />
                                                 </Button>
                                             </div>
                                         </section>
@@ -152,7 +152,7 @@ class ChatWindow extends React.Component {
 
                             <Col span={4}>
                                 <Button type='primary' style={{ width: '100%' }} onClick={this.submitMessage} htmlType='submit'>
-                                    <Icon type='enter' />
+                                    <Icon type='cater-right' />
                                 </Button>
                             </Col>
                         </Form>

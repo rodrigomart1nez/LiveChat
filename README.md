@@ -1,1 +1,1 @@
-Chatt-app
+Chat-app
