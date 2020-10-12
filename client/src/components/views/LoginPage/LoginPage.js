@@ -87,6 +87,7 @@ function LoginPage(props) {
               <Form.Item required>
                 <Input
                   id="email"
+                  autoComplete='false'
                   prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
                   placeholder="Enter your email"
                   type="email"
@@ -127,14 +128,14 @@ function LoginPage(props) {
               <Form.Item>
                 <Checkbox id="rememberMe" onChange={handleRememberMe} checked={rememberMe} >Remember me</Checkbox>
                 <a className="login-form-forgot" href="/reset_user" style={{ float: 'right' }}>
-                  forgot password
+                  Forgot password?
                   </a>
                 <div>
                   <Button type="primary" htmlType="submit" className="login-form-button" style={{ minWidth: '100%' }} disabled={isSubmitting} onSubmit={handleSubmit}>
                     Log in
                 </Button>
                 </div>
-                Or <a href="/register">register now!</a>
+                Or <a href="/register">Register</a>
               </Form.Item>
             </form>
           </div>

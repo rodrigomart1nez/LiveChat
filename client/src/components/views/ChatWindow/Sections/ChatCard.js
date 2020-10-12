@@ -4,7 +4,6 @@ import { Comment, Avatar, Tooltip } from 'antd'
 
 
 const ChatCard = (props) => {
-    console.log(props.message)
     return (
         <div style={{ width: '100%' }}>
             <Comment 
